@@ -14,3 +14,8 @@ const numeroValorFlutuanteSemZero = .5;
 const operacaoMatematica2 = num2 / numeroValorFlutuante;
 
 console.log(operacaoMatematica2)
+
+const idade = 2
+const deisAnosDepois = '12';
+const soma = idade + deisAnosDepois
+console.log(soma)
