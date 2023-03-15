@@ -38,3 +38,5 @@ const listaDeAlunosEMedias = [salaX,medias];
 console.log(`O(A) aluno(a) na terceira posição da sala é o(a) ${listaDeAlunosEMedias[0][1]}. A nota do(a) aluno(a) é ${listaDeAlunosEMedias[1][1]}.`);
 
 
+
+
