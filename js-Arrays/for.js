@@ -12,10 +12,20 @@ for (let indice = 0;indice<numeros.length; indice++) {
 
 const notas = [10,6.5,8,7.5];
 
-let somaDasNotas = 0
+//let somaDasNotas = 0
 
-for (let i = 0; i < notas.length; i++){
-    somaDasNotas += notas[i]
+//for (let i = 0; i < notas.length; i++){
+    //somaDasNotas += notas[i]
+//}
+//const media = somaDasNotas/notas.length;
+
+//console.log(`A media do aluno é ${media}`);
+
+// MEDIA FOR OF
+let somaDasNotas = 0 ;
+
+for (let nota of notas){
+    somaDasNotas += nota;
 }
 const media = somaDasNotas/notas.length;
 
