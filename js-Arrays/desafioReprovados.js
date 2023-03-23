@@ -27,3 +27,24 @@ function calculaMedia(notasDaSala){
 console.log(`A média da sala de JavaScript é ${calculaMedia(salaJS)}`);
 console.log(`A média da sala de Java é ${calculaMedia(salaJava)}`);
 console.log(`A média da sala de Python é ${calculaMedia(salaPython)}`);
+
+// CRIANDO CÓPIAS
+
+const alunoNota = [7,7,8,9];
+
+const novaNotas = [...alunoNota];
+
+novaNotas.push(10);
+
+console.log(`As novas notas são ${novaNotas}.`);
+console.log(`As notas originais são ${alunoNota}.`);
+
+//Set.js
+
+const nomeAlunos = ['ana','clara','maria','maria','joao','joao','joao'];
+
+const novaLista = [...new Set(nomeAlunos)];
+
+console.log(nomeAlunos)
+console.log(novaLista);
+
